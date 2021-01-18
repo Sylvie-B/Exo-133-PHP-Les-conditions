@@ -39,13 +39,15 @@
     //Cinquieme ligne
     echo"<br><br>";
 
-    $color = 'green';
+    $color = 'black';
 
      switch($color) {
         case "red":
             echo "Hello";
             break;
-       case "green":
+        case "green":
             echo "Welcome";
             break;
+        default:
+        echo "Good Bye";
     }
